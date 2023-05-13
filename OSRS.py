@@ -20,7 +20,7 @@ class Item:
 class PriceScraper:
     def __init__(self):
         self.headers = {
-            "User-Agent": "Project for school, Getting price data and finding most profitable items to flip in game. Thank you for this service! Please contact LivingAbortion#2463 via discord if the frequency of requests is unreasonable "
+            "User-Agent": "Project for school, Getting price data and finding most profitable items to flip in game. Thank you for this service! Please contact ----# via discord if the frequency of requests is unreasonable "
         }
         self.mapping_url = "https://prices.runescape.wiki/api/v1/osrs/mapping"
         self.prices_url = "https://prices.runescape.wiki/api/v1/osrs/latest"
