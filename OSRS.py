@@ -20,7 +20,7 @@ class Item:
 
 class PriceScraper:
     headers = {  # The API site asked that we make a "user-agent" so that they know what the API is being used for
-        "User-Agent": "Project for school, Getting price data and finding most profitable items to flip in game. Thank you for this service! Please contact ----# via discord if the frequency of requests is unreasonable "
+        "User-Agent": "Personal project, Getting price data and finding most profitable items to flip in game. Thank you for this service! Please contact ----# via discord if the frequency of requests is unreasonable "
     }
     mapping_url = "https://prices.runescape.wiki/api/v1/osrs/mapping"
     prices_url = "https://prices.runescape.wiki/api/v1/osrs/latest"
