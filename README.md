@@ -1,5 +1,5 @@
 # OSRS Item Searcher
-This program is an OSRS (Old School RuneScape) Item Searcher that allows users to search for items and find the most profitable items to flip in the game. It fetches item data and prices from the RuneScape Wiki API and provides a graphical user interface (GUI) for easy interaction. (Does not account for recent in-game Tax change)
+This program is an OSRS (Old School RuneScape) Item Searcher that allows users to search for items and find the most profitable items to flip in the game. It fetches item data and prices from A RuneScape Wiki API and provides a graphical user interface (GUI) for easy interaction. (Does not account for recent in-game Tax change)
 
 # Features
 * Search for items by name or ID: Users can enter an item name or ID to search for and retrieve information about the item, including its ID, name, margin (difference between high and low prices), and average price.
