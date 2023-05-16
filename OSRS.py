@@ -14,13 +14,8 @@ class Item:
 
     def margin(self):
         # Calculate the margin (difference between high and low prices) of the item
-        # Apply tax rules
-        if self.high < 100 or self.low > 499999999:
-            return (self.high - self.low) / self.low
-
-        tax = min(self.high * 0.01, 5000000)
-        high_with_tax = self.high - tax
-        return (high_with_tax - self.low) / self.low
+        if self.high is not None and self.low is not None:
+            return self.high - self.low  # Return the margin
 
 
 class PriceScraper:
