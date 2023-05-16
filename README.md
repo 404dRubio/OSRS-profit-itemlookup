@@ -36,6 +36,6 @@ Please make sure you have these dependencies installed before running the progra
       * To go back to the menu page, click the **Back to Menu** button.
 5. Saving items: When you click the **Save Items** button, the search results or top items will be saved to a text file named "saved_items.txt". You will receive a message indicating the success or failure of the save operation.
 
-Note: Although the program calculates the 1% tax on items over 100 GP and puts a limit of 5M tax on items over 499,999,999 GP. Be aware that the calculations in the program may not reflect the most current values. It's **recommended** to double-check the in-game tax rates before making any significant decisions based on the program's output.
+Note: Be aware that the calculations in the program may not reflect the most current values. It's **recommended** to double-check the in-game tax rates before making any significant decisions based on the program's output.
 
 Note: The program relies on fetching data from the RuneScape Wiki API, so an internet connection is required for it to function properly.
