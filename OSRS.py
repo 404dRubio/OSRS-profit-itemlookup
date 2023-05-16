@@ -54,7 +54,7 @@ class ItemSearcher:
         # Check if search term is an integer, indicating an item ID search
         try:
             item_id = int(search_term)
-            if item_id in self.prices_data["data"]:
+            if item_id in self.item_map:
                 data = self.prices_data["data"][str(item_id)]
                 # Create a list with item details for the found item
                 return [
