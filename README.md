@@ -1,8 +1,6 @@
 # OSRS Item Searcher
 This program is an OSRS (Old School RuneScape) Item Searcher that allows users to search for items and find the most profitable items to flip in the game. It fetches item data and prices from a RuneScape Wiki API and provides a graphical user interface (GUI) for easy interaction. 
 
-(Does not account for recent in-game Tax change)
-
 # Features
 * Search for items by name or ID: Users can enter an item name or ID to search for and retrieve information about the item, including its ID, name, margin (difference between high and low prices), and average price.
 * Find top profitable items: Users can specify the number of top profitable items they want to find, and the program will display a list of the most profitable items based on their margins.
@@ -38,6 +36,6 @@ Please make sure you have these dependencies installed before running the progra
       * To go back to the menu page, click the **Back to Menu** button.
 5. Saving items: When you click the **Save Items** button, the search results or top items will be saved to a text file named "saved_items.txt". You will receive a message indicating the success or failure of the save operation.
 
-Note: that this program does **not** account for recent in-game tax changes. Be aware that the calculations in the program may not reflect the most current values. It's **recommended** to double-check the in-game tax rates before making any significant decisions based on the program's output.
+Note: Although the program calculates the 1% tax on items over 100 GP and puts a limit of 5M tax on items over 499,999,999 GP. Be aware that the calculations in the program may not reflect the most current values. It's **recommended** to double-check the in-game tax rates before making any significant decisions based on the program's output.
 
 Note: The program relies on fetching data from the RuneScape Wiki API, so an internet connection is required for it to function properly.
